@@ -82,14 +82,14 @@ main()
 							answer=number1+number2;
 							printf("Plus is %d",answer);	
 							break;
-				  case 4 :	int number_multiply,count,multiple;
+		  case 4 :	int number_multiply,count,multiple;
 				  			printf("Please Enter your Number : ");
 				  			scanf("%d",&number_multiply);
 							for (count=1; count<=12; count++){
 								multiple=number_multiply*count;
 				  			printf("%dx%d=%d\n",number_multiply,count,multiple);
 							}break;
-				  case 5 :	int Count;
+		  case 5 :	int Count;
 				  			printf("Prime Numer is : ");
 				  			for(Count=1; Count<=30; Count++){
 				  				if((Count==1 || Count%2==0 ||Count%3==0 ||Count%5==0 ||Count%7==0) && ( Count!=2 && Count!=3 && Count!=5 && Count!=7)){
